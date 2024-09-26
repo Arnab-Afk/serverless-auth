@@ -1,17 +1,21 @@
 # Serverless Auth with GitHub and Google
 ### Table of Contents
 - Overview
-- Configuration
-- API Endpoints
-- GitHub Authentication
-- Google Authentication
-- Error Handling
-- Implementation Details
-- Example Usage
+- [Configuration]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#configuration))
+- [API Endpoints]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#api-endpoints))
+- [GitHub Authentication]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#github-authentication))
+- [Google Authentication]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#google-authentication))
+- [Error Handling]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#error-handling))
+- [Implementation Details]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#implementation-details))
+- [Example Usage]([url](https://github.com/Arnab-Afk/serverless-auth/edit/main/Readme.md#example-usage))
 
 ## Overview
-This documentation outlines the implementation of OAuth authentication with GitHub and Google using Cloudflare Workers.
 
+This documentation outlines the implementation of OAuth authentication with GitHub and Google using Cloudflare Workers. This authentication system can be directly implemented in any system or project by simply adding the redirect URL of the frontend from where the authentication request is initiated.
+### Key Benefits
+- Serverless Architecture : Built using Cloudflare Workers, this implementation provides a scalable, serverless architecture that eliminates the need for server management and reduces costs.
+- Easy Integration : Seamlessly integrate OAuth authentication into your project by simply adding the redirect URL of your frontend.
+- Enhanced Security : Leverage Cloudflare's robust security features to protect your authentication flow.
 ## Configuration
 ### Environment Variables
 - GITHUB_CLIENT_ID: Your GitHub OAuth client ID
